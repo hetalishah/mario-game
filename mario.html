@@ -4,6 +4,9 @@
         <title> Mario Game</title>
         <script src="mario.js"></script>
         <link rel="stylesheet" href="mario.css">
+        <!-- <img src="./images/mario.png">
+        <img src="./images/mushroom.png">
+        <img src="./images/poison.jpg"> -->
     </head>
     <body>
         <div id="form">
@@ -14,11 +17,11 @@
 
             <label for="col">Enter the number of columns:</label>
             <input type="text" id="col" name="col"><br>
-            <span style="font-size: 12px; color: red;">The number of columns should be greater than 5</span><br><br>
+            <span style="font-size: 12px; color: red;">The number of columns should be between 6 and 25</span><br><br>
 
             <button onclick="submit()">Start</button>
-        </div><br><br><br>
-
+        </div><br><br>
+        <span id="intro"></span><br><br><br>
         <div id="container">
         </div>
 
